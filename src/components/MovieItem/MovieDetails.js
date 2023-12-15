@@ -21,7 +21,7 @@ export const MovieDetails = ({
 
   return (
     <MovieDetailsSection>
-      <BackLink to={backLinkRef.current.state?.from ?? '/list'}>
+      <BackLink to={backLinkRef.current.state?.from ?? '/movies'}>
         Go back
       </BackLink>
       <MainDiscr>
